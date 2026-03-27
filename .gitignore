@@ -1,0 +1,27 @@
+# Fichiers compilés Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuration locale et secrets
+.streamlit/secrets.toml
+.env
+
+# Fichiers de données volumineux (IMDB / AniList)
+*.csv
+*.tsv
+*.pkl
+*.xlsx
+data/
+
+# Logs et OS
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+/AniList/fetch_data.py
+/AniList/kaggle_dataset_description.md
