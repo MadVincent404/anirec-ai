@@ -8,11 +8,8 @@ __pycache__/
 .env
 
 # Fichiers de données volumineux (IMDB / AniList)
-*.csv
-*.tsv
 *.pkl
 *.xlsx
-data/
 
 # Logs et OS
 *.log
@@ -23,5 +20,8 @@ Thumbs.db
 .vscode/
 .idea/
 .ipynb_checkpoints/
-/AniList/fetch_data.py
-/AniList/kaggle_dataset_description.md
+/AniList/*
+/IMDB/*
+
+*.csv
+*.tsv
